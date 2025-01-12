@@ -1,0 +1,122 @@
+header{
+    background-color: #fff;
+    color: #9933ff;
+    padding: 20px 0;
+    text-align: left;
+}
+div#sectionTop2{
+    margin-left: 300px;
+}
+nav#Topnav{
+    background-color: #ccff99;
+    padding: 10px;
+    height: 60px;
+}
+ul#topNavUrl li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 5px 65px;
+}
+ul#topNavUrl li a{
+    font-size: 24px;
+    color: #483d8b;
+    font-family: 黑体;
+}
+article{
+    background: white;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+li{
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    line-height: 20px;
+    font-family: 宋体;
+    text-decoration: none;
+    list-style: none;
+}
+article#main section[id^=bottomdiv]{
+    display: flex;
+}
+#div1-container{
+    display: -moz-box;
+    display: -webkit-box;
+}
+#left-sidebar-1{
+    width: 800px;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: #faf0e6;
+}
+#left-sidebar-1 ul li{
+    list-style: none;
+    display: inline-block;
+    align-items: safe;
+    padding-inline: 5%;
+    width: auto;
+}
+#right-sidebar-1{
+    width: 300px;
+    padding: 20px;
+    background-color: #fff5ee;
+}
+#left-sidebar-1,#right-sidebar-1{
+    box-sizing: border-box;
+}
+#inform-container{
+    display: flex;
+    align-items: first baseline;
+}
+#left-sidebar-i{
+    width: 250px;
+}
+#contents-i{
+    width: 250px;
+}
+#right-sidebar-i{
+    width: 250px;
+}
+#left-sidebar-i,#contents-i,#right-sidebar-i{
+    box-sizing: border-box;
+}
+footer {
+    background-color: #777;
+    color: #fff;
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+#foot-container{
+    display: flex;
+}
+#left-sidebar-f{
+    width: 1000px;
+    padding: 20px;
+    margin-left: 30px;
+}
+#left-sidebar-f ul li{
+    list-style: none;
+    display: inline-block;
+    align-items: safe;
+    padding-inline: 20px;
+    width: auto;
+}
+#right-sidebar-f{
+    width: 320px;
+    padding: 20px;
+    font-family: 黑体;
+}
+#left-sidebar-f,#right-sidebar-f{
+    box-sizing: border-box;
+}
+ul#foot_link li a{
+    color: #ffe4e1;
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 16px;
+}
