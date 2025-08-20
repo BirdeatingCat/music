@@ -96,6 +96,9 @@ footer {
 }
 #left-sidebar-f{
     width: 1000px;
+    @media screen and (max-width: 980px){
+        width: 1200px;
+    }
     padding: 20px;
     margin-left: 30px;
 }
@@ -119,4 +122,5 @@ ul#foot_link li a{
     text-decoration: none;
     font-family: 黑体;
     font-size: 16px;
+
 }
